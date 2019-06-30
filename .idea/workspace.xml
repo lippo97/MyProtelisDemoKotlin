@@ -3,11 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="a99a793c-f2ed-45a1-a860-de0f0cbcfd5f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/javademo/Device.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/javademo/Device.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/javademo/DeviceCapabilities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/javademo/DeviceCapabilities.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/javademo/EmulatedNetworkManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/javademo/EmulatedNetworkManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/javademo/MyDeviceUID.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/javademo/MyDeviceUID.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/javademo/MyDeviceUIDImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/javademo/MyDeviceUIDImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Device.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Device.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/HelloProtelis.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/HelloProtelis.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
@@ -53,8 +50,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/HelloProtelis.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="64" column="8" lean-forward="true" selection-start-line="64" selection-start-column="8" selection-end-line="64" selection-end-column="8" />
+            <state relative-caret-position="423">
+              <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -71,8 +68,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/DeviceCapabilities.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state relative-caret-position="272">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
               <folding>
                 <element signature="e#14#159#0" expanded="true" />
               </folding>
@@ -81,20 +78,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/javademo/MyDeviceUIDImpl.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/javademo/MyDeviceUID.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/javademo/Device.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/javademo/DeviceCapabilities.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+            <state relative-caret-position="323">
+              <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/Device.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+              <folding>
+                <element signature="e#14#197#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -120,16 +119,17 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/gradle/src/main/kotlin/HelloProtelisKotlin.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/DeviceCapabilities.kt" />
         <option value="$PROJECT_DIR$/build.gradle.kts" />
         <option value="$PROJECT_DIR$/src/main/kotlin/EmulatedNetworkManager.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/Device.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/IntDeviceUID.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/Speaker.kt" />
         <option value="$PROJECT_DIR$/src/main/resources/hello.pt" />
         <option value="$PROJECT_DIR$/src/main/java/javademo/EmulatedNetworkManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/javademo/MyDeviceUID.java" />
         <option value="$PROJECT_DIR$/src/main/java/javademo/Device.java" />
+        <option value="$PROJECT_DIR$/src/main/java/javademo/DeviceCapabilities.java" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/Device.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/DeviceCapabilities.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/HelloProtelis.kt" />
       </list>
     </option>
@@ -179,6 +179,13 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="javademo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyProtelisDemoKotlin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyProtelisDemoKotlin" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -343,13 +350,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/hello.pt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.protelis/protelis-interpreter/12.1.0/35fe74ff7846827d5d1695bca59174c286a299a5/protelis-interpreter-12.1.0-sources.jar!/org/protelis/vm/impl/AbstractExecutionContext.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="710">
@@ -357,16 +357,6 @@
           <folding>
             <element signature="e#12537#12538#0" expanded="true" />
             <element signature="e#12563#12564#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/Device.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-          <folding>
-            <element signature="e#14#197#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -387,19 +377,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/javademo/DeviceCapabilities.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/DeviceCapabilities.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="e#14#159#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/javademo/Device.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -407,10 +384,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/Device.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+          <folding>
+            <element signature="e#14#197#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/javademo/DeviceCapabilities.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/DeviceCapabilities.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#14#159#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/hello.pt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/HelloProtelis.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="64" column="8" lean-forward="true" selection-start-line="64" selection-start-column="8" selection-end-line="64" selection-end-column="8" />
+        <state relative-caret-position="423">
+          <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
         </state>
       </provider>
     </entry>

@@ -9,6 +9,7 @@ import org.protelis.vm.ProtelisVM
 class Device(val program: ProtelisProgram, val uid: Int) {
     val netmgr = EmulatedNetworkManager(IntDeviceUID(uid))
     val deviceCapabilities = DeviceCapabilities(uid, netmgr)
+    //val deviceCapabilities = javademo.DeviceCapabilities(uid, netmgr)
     private val vm = ProtelisVM(program, deviceCapabilities)
     var network = DefaultUndirectedGraph<Device, DefaultEdge>(DefaultEdge::class.java)
 
