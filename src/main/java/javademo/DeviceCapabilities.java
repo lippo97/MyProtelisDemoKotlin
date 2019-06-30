@@ -24,7 +24,7 @@ public class DeviceCapabilities extends AbstractExecutionContext {
 
     @Override
     protected AbstractExecutionContext instance() {
-        return new demo.DeviceCapabilities(this.uid.getUID(), getNetworkManager());
+        return new DeviceCapabilities(this.uid.getUID(), getNetworkManager());
     }
 
     @Override
