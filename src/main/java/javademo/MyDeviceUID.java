@@ -1,4 +1,4 @@
-package demo;
+package javademo;
 
 import org.protelis.lang.datatype.DeviceUID;
 

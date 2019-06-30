@@ -1,9 +1,7 @@
-package demo;
+package javademo;
 
 import org.protelis.lang.datatype.DeviceUID;
-import org.protelis.lang.datatype.Field;
 import org.protelis.vm.NetworkManager;
-import org.protelis.vm.TimeAwareDevice;
 import org.protelis.vm.impl.AbstractExecutionContext;
 import org.protelis.vm.impl.SimpleExecutionEnvironment;
 
@@ -26,7 +24,7 @@ public class DeviceCapabilities extends AbstractExecutionContext {
 
     @Override
     protected AbstractExecutionContext instance() {
-        return new DeviceCapabilities(this.uid.getUID(), getNetworkManager());
+        return new demo.DeviceCapabilities(this.uid.getUID(), getNetworkManager());
     }
 
     @Override

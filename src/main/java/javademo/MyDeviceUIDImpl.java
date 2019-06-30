@@ -1,6 +1,4 @@
-package demo;
-
-import org.protelis.lang.datatype.DeviceUID;
+package javademo;
 
 public class MyDeviceUIDImpl implements MyDeviceUID {
 

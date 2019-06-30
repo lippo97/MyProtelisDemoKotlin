@@ -1,9 +1,8 @@
-package demo;
+package javademo;
 
 import org.jgrapht.Graph;
 import org.jgrapht.Graphs;
 import org.jgrapht.graph.DefaultEdge;
-import org.protelis.vm.NetworkManager;
 import org.protelis.vm.ProtelisProgram;
 import org.protelis.vm.ProtelisVM;
 

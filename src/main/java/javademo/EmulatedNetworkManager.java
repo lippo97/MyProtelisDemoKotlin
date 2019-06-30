@@ -1,10 +1,12 @@
-package demo;
+package javademo;
 
 import org.protelis.lang.datatype.DeviceUID;
 import org.protelis.vm.CodePath;
 import org.protelis.vm.NetworkManager;
 
-import java.util.*;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Set;
 
 public class EmulatedNetworkManager implements NetworkManager {
 
