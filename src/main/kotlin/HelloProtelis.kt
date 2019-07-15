@@ -31,14 +31,11 @@ class HelloProtelis {
             g.addVertex(d)
         }
         // Link the nodes as a ring network
-
         repeat(N) {
             g.addEdge(
                     devices.get(it),
                     devices.get((it + 1) % N))
         }
-
-
         return g
     }
 
